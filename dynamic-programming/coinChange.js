@@ -1,3 +1,8 @@
+/*
+* n: the total sum of money
+* coins: an array of coins (values) available to make the sum
+* returns the minimum possible number of required coins 
+*/
 function minCoinChange(n, coins) {
   const coinNum = [0]; //the min number of coins to get the value = index
   for (let i = 1; i <= n; i++) {
